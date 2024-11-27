@@ -1,0 +1,58 @@
+{
+  "name": "ana-card-og",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Firebase Function para generar imágenes Open Graph dinámicas para los usuarios de Ana×Cards.",
+  "keywords": [
+    "firebase",
+    "firebase-functions",
+    "open-graph",
+    "open-graph-generator"
+  ],
+  "bugs": {
+    "url": "https://github.com/UXCorpRangel/ana-cards-og/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/UXCorpRangel/ana-cards-og.git"
+  },
+  "license": "MIT",
+  "author": "UXCorpRangel - Felix Icaza <fx.joliett17@gmail.com>",
+  "scripts": {
+    "build": "pnpm -r run build",
+    "build:watch": "pnpm -r run build:watch",
+    "deploy": "pnpm -r run deploy",
+    "lint": "eslint --cache --fix ./",
+    "logs": "pnpm -r run logs",
+    "prepare": "simple-git-hooks",
+    "serve": "pnpm -r run serve",
+    "shell": "pnpm -r run shell",
+    "start": "pnpm -r run start"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged"
+  },
+  "lint-staged": {
+    "./**/*.{js,mjs,cjs}": [
+      "pnpm lint",
+      "prettier --cache --write \"./**/*.{js,mjs,cjs}\""
+    ],
+    "./**/*.ts": [
+      "pnpm lint",
+      "prettier --cache --write \"./**/*.ts\""
+    ],
+    "./**/*.json": "prettier --cache --write \"./**/*.json\"",
+    "./**/*.yml": "prettier --cache --write \"./**/*.yml\""
+  },
+  "devDependencies": {
+    "@eslint/js": "9.15.0",
+    "eslint": "9.15.0",
+    "eslint-config-prettier": "9.1.0",
+    "globals": "15.12.0",
+    "lint-staged": "15.2.10",
+    "prettier": "3.4.1",
+    "simple-git-hooks": "2.11.1",
+    "typescript": "5.7.2",
+    "typescript-eslint": "8.16.0"
+  }
+}
