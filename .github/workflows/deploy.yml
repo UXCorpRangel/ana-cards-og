@@ -33,4 +33,4 @@ jobs:
            with:
               tools-version: 13.27.0
               firebase_token: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
-         - run: firebase deploy --only functions --project ${{ secrets.FIREBASE_PROJECT_ID }}
+         - run: firebase deploy --only functions --project ${{ secrets.FIREBASE_PROJECT_ID }} --debug
