@@ -14,26 +14,23 @@ jobs:
          - name: Checkout Code
            uses: actions/checkout@v4.2.2
 
+         - name: Install PNPM
+           uses: pnpm/action-setup@v4
+           with:
+              version: 9
+              run_install: true
+
          - name: Set up Node.js
            uses: actions/setup-node@v4.1.0
            with:
               node-version: '20'
               cache: 'pnpm'
 
-         - name: Install PNPM
-           uses: pnpm/action-setup@v4
-
-         - name: Install dependencies with PNPM
-           run: pnpm install
-           with:
-              version: 9
-              run_install: true
-
          - name: Run build
            run: pnpm build
 
-         - uses: w9jds/setup-firebase@1.0.0
+         - uses: w9jds/setup-firebase@main
            with:
               tools-version: 13.27.0
-              firebase_token: ${{ secrets.FIREBASE_TOKEN }}
-         - run: firebase deploy --only functions
+              firebase_token: ${{ secrets.GOOGLE_APPLICATION_CREDENTIALS }}
+         - run: firebase deploy --only functions --project ${{ secrets.FIREBASE_PROJECT_ID }}
