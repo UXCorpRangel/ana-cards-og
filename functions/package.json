@@ -24,7 +24,7 @@
   },
   "devDependencies": {
     "@types/isomorphic-fetch": "0.0.39",
-    "@types/node": "22.10.0",
+    "@types/node": "22.10.2",
     "@types/react": "19.0.1",
     "firebase-functions-test": "3.3.0"
   },
