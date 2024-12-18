@@ -48,8 +48,8 @@ importers:
         specifier: 11.10.0
         version: 11.10.0
       firebase-functions:
-        specifier: 6.1.1
-        version: 6.1.1(firebase-admin@11.10.0)
+        specifier: 6.1.2
+        version: 6.1.2(firebase-admin@11.10.0)
       isomorphic-fetch:
         specifier: 3.0.0
         version: 3.0.0
@@ -74,7 +74,7 @@ importers:
         version: 19.0.1
       firebase-functions-test:
         specifier: 3.3.0
-        version: 3.3.0(firebase-admin@11.10.0)(firebase-functions@6.1.1(firebase-admin@11.10.0))(jest@29.7.0(@types/node@22.10.2))
+        version: 3.3.0(firebase-admin@11.10.0)(firebase-functions@6.1.2(firebase-admin@11.10.0))(jest@29.7.0(@types/node@22.10.2))
 
 packages:
 
@@ -1289,10 +1289,6 @@ packages:
     resolution: {integrity: sha512-2Zks0hf1VLFYI1kbh0I5jP3KHHyCHpkfyHBzsSXRFgl/Bg9mWYfMW8oD+PdMPlEwy5HNsR9JutYy6pMeOh61nw==}
     engines: {node: ^14.15.0 || ^16.10.0 || >=18.0.0}
 
-  express@4.21.1:
-    resolution: {integrity: sha512-YSFlK1Ee0/GC8QaO91tHcDxJiE/X4FbpAyQWkxAvG6AXCuR65YzK8ua6D9hvi/TzUfZMpc+BwuM1IPw8fmQBiQ==}
-    engines: {node: '>= 0.10.0'}
-
   express@4.21.2:
     resolution: {integrity: sha512-28HqgMZAmih1Czt9ny7qr6ek2qddF4FclbMzwhCREB6OFfH+rXAnuNCwo1/wFvrtbgsQDb4kSbX9de9lFbrXnA==}
     engines: {node: '>= 0.10.0'}
@@ -1368,8 +1364,8 @@ packages:
       firebase-functions: '>=4.9.0'
       jest: '>=28.0.0'
 
-  firebase-functions@6.1.1:
-    resolution: {integrity: sha512-q+4zsQhX04YJUz6hqaiH/j5kixljPj0PMxkm8KN3juYp3I4NC6CZ4qfy5JRfwvV8VfXM2KkJrZuyJtLyZr97aw==}
+  firebase-functions@6.1.2:
+    resolution: {integrity: sha512-1ZKLLOs4YhpzfWOZo0wsqNBusy9113GUfRs89BF6yOlmkxlcJxdJzZEs/ygWeXVJKquZhW2K1Gm10Gir4RJxGQ==}
     engines: {node: '>=14.10.0'}
     hasBin: true
     peerDependencies:
@@ -2226,9 +2222,6 @@ packages:
 
   path-parse@1.0.7:
     resolution: {integrity: sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==}
-
-  path-to-regexp@0.1.10:
-    resolution: {integrity: sha512-7lf7qcQidTku0Gu3YDPc8DJ1q7OOucfa/BSsIwjuh56VU7katFvuM8hULfkwB3Fns/rsVF7PwPKVw1sl5KQS9w==}
 
   path-to-regexp@0.1.12:
     resolution: {integrity: sha512-RA1GjUVMnvYFxuqovrEqZoxxW5NUZqbwKtYz/Tt7nXerk0LbLblQmrsgdeOxV5SFHf0UDggjS/bSeOZwt1pmEQ==}
@@ -3537,7 +3530,7 @@ snapshots:
 
   '@types/express-serve-static-core@5.0.2':
     dependencies:
-      '@types/node': 22.10.0
+      '@types/node': 22.10.2
       '@types/qs': 6.9.17
       '@types/range-parser': 1.2.7
       '@types/send': 0.17.4
@@ -4279,42 +4272,6 @@ snapshots:
       jest-message-util: 29.7.0
       jest-util: 29.7.0
 
-  express@4.21.1:
-    dependencies:
-      accepts: 1.3.8
-      array-flatten: 1.1.1
-      body-parser: 1.20.3
-      content-disposition: 0.5.4
-      content-type: 1.0.5
-      cookie: 0.7.1
-      cookie-signature: 1.0.6
-      debug: 2.6.9
-      depd: 2.0.0
-      encodeurl: 2.0.0
-      escape-html: 1.0.3
-      etag: 1.8.1
-      finalhandler: 1.3.1
-      fresh: 0.5.2
-      http-errors: 2.0.0
-      merge-descriptors: 1.0.3
-      methods: 1.1.2
-      on-finished: 2.4.1
-      parseurl: 1.3.3
-      path-to-regexp: 0.1.10
-      proxy-addr: 2.0.7
-      qs: 6.13.0
-      range-parser: 1.2.1
-      safe-buffer: 5.2.1
-      send: 0.19.0
-      serve-static: 1.16.2
-      setprototypeof: 1.2.0
-      statuses: 2.0.1
-      type-is: 1.6.18
-      utils-merge: 1.0.1
-      vary: 1.1.2
-    transitivePeerDependencies:
-      - supports-color
-
   express@4.21.2:
     dependencies:
       accepts: 1.3.8
@@ -4439,21 +4396,21 @@ snapshots:
       - encoding
       - supports-color
 
-  firebase-functions-test@3.3.0(firebase-admin@11.10.0)(firebase-functions@6.1.1(firebase-admin@11.10.0))(jest@29.7.0(@types/node@22.10.2)):
+  firebase-functions-test@3.3.0(firebase-admin@11.10.0)(firebase-functions@6.1.2(firebase-admin@11.10.0))(jest@29.7.0(@types/node@22.10.2)):
     dependencies:
       '@types/lodash': 4.17.13
       firebase-admin: 11.10.0
-      firebase-functions: 6.1.1(firebase-admin@11.10.0)
+      firebase-functions: 6.1.2(firebase-admin@11.10.0)
       jest: 29.7.0(@types/node@22.10.2)
       lodash: 4.17.21
       ts-deepmerge: 2.0.7
 
-  firebase-functions@6.1.1(firebase-admin@11.10.0):
+  firebase-functions@6.1.2(firebase-admin@11.10.0):
     dependencies:
       '@types/cors': 2.8.17
       '@types/express': 4.17.21
       cors: 2.8.5
-      express: 4.21.1
+      express: 4.21.2
       firebase-admin: 11.10.0
       protobufjs: 7.4.0
     transitivePeerDependencies:
@@ -5535,8 +5492,6 @@ snapshots:
   path-key@4.0.0: {}
 
   path-parse@1.0.7: {}
-
-  path-to-regexp@0.1.10: {}
 
   path-to-regexp@0.1.12: {}
 
