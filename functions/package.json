@@ -15,7 +15,7 @@
   "dependencies": {
     "@google-cloud/functions-framework": "3.4.4",
     "@resvg/resvg-js": "2.6.2",
-    "firebase-admin": "11.10.0",
+    "firebase-admin": "13.0.2",
     "firebase-functions": "6.1.2",
     "isomorphic-fetch": "3.0.0",
     "react": "19.0.0",
