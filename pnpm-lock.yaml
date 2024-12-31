@@ -39,8 +39,8 @@ importers:
   functions:
     dependencies:
       '@google-cloud/functions-framework':
-        specifier: 3.4.3
-        version: 3.4.3
+        specifier: 3.4.4
+        version: 3.4.4
       '@resvg/resvg-js':
         specifier: 2.6.2
         version: 2.6.2
@@ -326,8 +326,8 @@ packages:
     resolution: {integrity: sha512-JRpk06SmZXLGz0pNx1x7yU3YhkUXheKgH5hbDZ4kMsdhtfV5qPLJLRI4wv69K0cZorIk+zTMOwptue7hizo0eA==}
     engines: {node: '>=12.0.0'}
 
-  '@google-cloud/functions-framework@3.4.3':
-    resolution: {integrity: sha512-NR9r3cAcuE35bW+23jRrYXWY7QFwK4UlLtmf6y+JgKzplt7s50gPrROuD2yqB9JKXynXfdRAC0EwwHZ+4Q0jsQ==}
+  '@google-cloud/functions-framework@3.4.4':
+    resolution: {integrity: sha512-OVDuc9t1NrWvUbg25FClzuPDb5LCIVW65nBhG4YJHuBaSjclbMcr/OAqQsgxzmJxuR/sS+lo8HZyAcPAzJKX2A==}
     engines: {node: '>=10.0.0'}
     hasBin: true
 
@@ -3110,7 +3110,7 @@ snapshots:
       - supports-color
     optional: true
 
-  '@google-cloud/functions-framework@3.4.3':
+  '@google-cloud/functions-framework@3.4.4':
     dependencies:
       '@types/express': 5.0.0
       body-parser: 1.20.3
