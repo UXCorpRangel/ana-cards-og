@@ -19,7 +19,7 @@
     "firebase-functions": "6.2.0",
     "isomorphic-fetch": "3.0.0",
     "react": "19.0.0",
-    "satori": "0.12.0",
+    "satori": "0.12.1",
     "satori-html": "0.3.2"
   },
   "devDependencies": {
