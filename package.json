@@ -45,7 +45,7 @@
     "./**/*.yml": "prettier --cache --write \"./**/*.yml\""
   },
   "devDependencies": {
-    "@eslint/js": "9.19.0",
+    "@eslint/js": "9.21.0",
     "eslint": "9.19.0",
     "eslint-config-prettier": "10.0.1",
     "globals": "15.14.0",
