@@ -13,7 +13,7 @@
     "start": "pnpm run shell"
   },
   "dependencies": {
-    "@google-cloud/functions-framework": "3.4.5",
+    "@google-cloud/functions-framework": "3.5.1",
     "@resvg/resvg-js": "2.6.2",
     "firebase-admin": "13.0.2",
     "firebase-functions": "6.3.1",
