@@ -18,14 +18,14 @@
     "firebase-admin": "13.0.2",
     "firebase-functions": "6.3.1",
     "isomorphic-fetch": "3.0.0",
-    "react": "19.0.0",
+    "react": "19.1.0",
     "satori": "0.12.1",
     "satori-html": "0.3.2"
   },
   "devDependencies": {
     "@types/isomorphic-fetch": "0.0.39",
     "@types/node": "22.13.0",
-    "@types/react": "19.0.8",
+    "@types/react": "19.1.0",
     "firebase-functions-test": "3.4.0"
   },
   "engines": {
